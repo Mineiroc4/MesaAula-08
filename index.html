@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/index.js" defer></script>
+    <title>-Front End 2 -Aula 08</title>
+  </head>
+  <!-- Crie um formulário com campos de input e botões de submit e reset -->
+  <body>
+    <header class="header">
+      <h1>Digital House - Front End 2 -</h1>
+      <h2>Mesa de Trabalho dia 17/08/2022</h2>
+      <h3>Rafael Longobardi Mineiro Varela</h3>
+    </header>
+
+    <main>
+      <h1>Registre-se</h1>
+      <form>
+      <div class="input-container">
+        <label for="name">Nome:</label>
+        <input 
+          type="text"
+          name="name"
+          id="name-input"
+          placeholder="Insira seu nome aqui *"
+        >
+      </div>
+      <div class="input-container">
+        <label for="lastName">Sobrenome:</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName-input"
+          placeholder="Insira seu sobrenome aqui *"
+          >
+      </div>
+      <div class="input-container">
+        <label for="email">Email:</label>
+        <input 
+          type="email"
+          name="email"
+          id="email-input"
+          placeholder="Insira seu E-mail *"
+        >
+      </div>
+      <div class="input-container">
+        <label for="password">Senha:</label>
+        <input 
+          type="password"
+          name="password"
+          id="password-input"
+          placeholder="Insira sua senha *"
+        >
+      </div>
+      <div class="input-container">
+        <label for="adress">Endereço:</label>
+        <input 
+          type="text"
+          name="adress"
+          id="adress-input"
+          placeholder="Insira seu endereço: *"
+        >
+      </div>
+      <div class="input-container">
+        <label for="telephone">Telefone:</label>
+        <input 
+        type="text"
+        name="telephone"
+        id="tel-input"
+        placeholder="Insira um número de telefone *"
+        >
+      </div>
+      <div class="input-container">
+        <div class="tac-container">
+          <input 
+          type="checkbox"
+          name="termsAndConditions" 
+          id="tac-input"
+          >
+          <p>Declaro que li e aceito os termos de uso e condições.</p>
+        </div>
+      </div>
+    </div>
+    <button
+     class="register-btn" type="button">Finalizar Cadastro</button>
+     <button 
+     class="reset-btn" 
+     type="reset">Limpar</button>
+      </form>
+    </main>
+  </body>
+</html>
